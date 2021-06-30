@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+{% block title %}Modification de l'album {{ parent() }}{% endblock %}
+{# {% block title %}Modification de l'album{{ formName }} {{ parent() }}{% endblock %} #}
+{% block body %}
+    <div class="alert alert-info" style="max-width: 700px; margin:auto;">
+        {# <h1 class="display-5">Formulaire : {{ formName }}</h1> #}
+        {# {{ form(dataForm) }} #}
+    </div>
+<h1>{{dump(albumId)}}</h1>
+{% endblock %}

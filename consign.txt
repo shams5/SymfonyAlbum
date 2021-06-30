@@ -1,0 +1,9 @@
+
+Symfony Album:
+
+Une fois que vous aurez complété la Vue de manière à ce que l'exemple Bootstrap soit rendu tel quel sur votre propre application (avec le tableau de vignettes rendu au sein de index.html.twig, et le reste dans base.html.twig et les fichiers twig layout pertinents), utiliser votre nouvelle Entity Album pour déterminer l'affichage de votre page d'accueil:
+Il faut qu'il y ait autant de vignettes que d'instances d'Entity Album au sein de votre base de données étant donné que chaque vignette représentera une entrée de votre table Album. Le texte affiché sous chaque image:
+	"This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+    Doit à la place être un rendu de la valeur $description de votre objet Entity Album.
+    
+    (Consigne supplémentaire: Une fois que tout cela sera fait, créer un formulaire AlbumType)
